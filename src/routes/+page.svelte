@@ -12,7 +12,7 @@
 
   // compiles to "func2(get(a), d);"
   const func2 = (a, d) => {
-    if ((typeof a === "number") & (typeof d === "number")) {
+    if (a && d) {
       console.log("func2", d);
     }
   };
