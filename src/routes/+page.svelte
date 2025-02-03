@@ -32,7 +32,7 @@
   When "a" is more than 2 it throws "Uncaught TypeError: Cannot read properties
   of undefined (reading 'f')" in console
 </p>
-<p>This only shows on builds, not on dev</p>
+<p>This only shows on builds, not on local dev</p>
 <button
   onclick={() => {
     a++;
